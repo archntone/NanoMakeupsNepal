@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NanoMakeups Nepal - Premium Cosmetics</title>
+    <title>Arch & Tone - Precision Beauty Services in Australia</title> <!-- CHANGED: Title updated -->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -11,15 +11,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <span class="logo-text">NanoMakeups Nepal</span>
-                <span class="logo-subtext">Beauty Redefined</span>
+                <span class="logo-text">Arch & Tone</span>
+                <span class="logo-subtext">Beauty Parlour & Grooming Studio</span> <!-- CHANGED: More service-oriented -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -27,382 +26,291 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li> <!-- CHANGED: "Services" instead of "Products" -->
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li> <!-- NEW: Pricing section -->
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-
                     <li class="nav-item">
-                        <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-shop-now">Shop Now <i class="fas fa-shopping-cart"></i></a>
+                        <a href="https://www.instagram.com/archntone/" class="btn btn-shop-now">Book Now <i class="fas fa-calendar-check"></i></a> <!-- CHANGED: "Book Now" instead of "Shop Now" -->
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section - CHANGED: Service-focused hero text -->
     <section id="home" class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1>Discover Your Radiance</h1>
-            <p class="lead">Premium cosmetics at the most affordable price in Nepal</p>
-            <a href="#products" class="btn btn-explore">Explore Products</a>
+            <h1>Where every arch is an art, and every tone is your glow</h1>
+            <p class="lead">Precision Threading • Waxing • Tinting • Facials • Eyelash Extensions • Henna • Full Body Grooming</p>
+            <p class="hero-subtext">Enhancing your natural beauty with expertise, care, and affordability in Australia</p> <!-- NEW: Location added -->
+            <div class="hero-buttons">
+                <a href="#pricing" class="btn btn-explore">View Services & Pricing</a>
+                <a href="tel:610450051237" class="btn btn-outline-light">Call to Book</a> <!-- NEW: Call button -->
+            </div>
         </div>
     </section>
 
-    <!-- Featured Products -->
-    <section id="products" class="products py-5">
+    <!-- Services Section - CHANGED: Completely redesigned for service-oriented parlour -->
+    <section id="services" class="services py-5">
         <div class="container">
             <div class="section-header">
-                <h2>Our Featured Products</h2>
-                <p>Discover our best-selling items</p>
+                <h2>Our Premium Services</h2>
+                <p>Expert grooming services tailored to enhance your natural beauty</p>
             </div>
             
             <div class="row g-4">
+                <!-- Threading Service Card -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselLipstick" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/lip.JPG" class="d-block w-100" alt="blush 1">
-                                    </div>
-                                      
-                                    <div class="carousel-item">
-                                        <img src="image/lip.JPG" class="d-block w-100" alt="Lipstick 2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/lip1.JPG" class="d-block w-100" alt="Lipstick 3">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselLipstick" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselLipstick" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>Luscious Lipiner</h3>
-                            <p class="price">Creamy texture adding precision and colors.</p>
+                    <div class="service-card"> <!-- CHANGED: service-card instead of product-card -->
+                        <div class="service-icon">
+                            <i class="fas fa-eye"></i> <!-- CHANGED: Icon instead of carousel -->
+                        </div>
+                        <div class="service-info">
+                            <h3>Threading</h3>
+                            <p>Precision eyebrow shaping, upper lip, forehead, full face, and more with clean, hygienic thread techniques.</p>
+                            <ul class="service-list">
+                                <li>✓ Eyebrows - $10</li>
+                                <li>✓ Upper Lip - $7</li>
+                                <li>✓ Full Face - $30</li>
+                                <li>✓ Eyebrow + Lip - $15</li>
+                            </ul>
+                            <a href="#pricing" class="btn btn-view-service">View All Threading</a> <!-- CHANGED: Link to pricing -->
                         </div>
                     </div>
                 </div>
                 
-                
+                <!-- Waxing Service Card -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselblush" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/blush.JPG" class="d-block w-100" alt="blush 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/blush1.JPG" class="d-block w-100" alt="blush 2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/blush2.JPG" class="d-block w-100" alt="blush 3">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselblush" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselblush" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>blush</h3>
-                            <p class="price">long lasting with smooth finish. </p>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i> <!-- CHANGED: Icon -->
+                        </div>
+                        <div class="service-info">
+                            <h3>Waxing</h3>
+                            <p>Gentle and effective waxing for smooth, hair-free skin on face and body.</p>
+                            <ul class="service-list">
+                                <li>✓ Under Arms - $15</li>
+                                <li>✓ Half Arms - $20</li>
+                                <li>✓ Full Legs - $40</li>
+                                <li>✓ Full Body - $99</li>
+                                <li>✓ Brazilian - $45</li>
+                            </ul>
+                            <a href="#pricing" class="btn btn-view-service">View All Waxing</a>
                         </div>
                     </div>
                 </div>
                 
+                <!-- Tinting & Lamination Card -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselblender" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/ble.JPG" class="d-block w-100" alt="Blender 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/ble1.JPG" class="d-block w-100" alt="Blender 2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/ble2.JPG" class="d-block w-100" alt="Blender 3">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBlender" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselBlender" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>Blender</h3>
-                            <p class="price">Blends your makeup perfectly.</p>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Tinting & Lamination</h3>
+                            <p>Enhance your natural features with professional tinting and lamination services.</p>
+                            <ul class="service-list">
+                                <li>✓ Eyebrow Tint - $10</li>
+                                <li>✓ Eyelash Tint - $12</li>
+                                <li>✓ Eyelash Lift - $45</li>
+                                <li>✓ Eyebrow Lamination - $70</li>
+                            </ul>
+                            <a href="#pricing" class="btn btn-view-service">View All Tinting</a>
                         </div>
                     </div>
                 </div>
                 
+                <!-- Facials Card -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselSerum" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/ser.JPG" class="d-block w-100" alt="Serum 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/ser1.PNG" class="d-block w-100" alt="Serum 2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/ser2.JPG" class="d-block w-100" alt="Serum 3">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSerum" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselSerum" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>Rice Serum</h3>
-                            <p class="price">Nourish skin and shrink pores</p>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Facials</h3>
+                            <p>Rejuvenating facials for every skin type, leaving your skin fresh and radiant.</p>
+                            <ul class="service-list">
+                                <li>✓ Express Cleansing - $25</li>
+                                <li>✓ Classic Facial - $45</li>
+                                <li>✓ Brightening Facial - $75</li>
+                                <li>✓ Anti-Aging Facial - $75</li>
+                                <li>✓ Deluxe Facial - $100</li>
+                            </ul>
+                            <a href="#pricing" class="btn btn-view-service">View All Facials</a>
                         </div>
                     </div>
                 </div>
                 
-               
+                <!-- Eyelash Extensions Card -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselEyecream" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/eye.JPG" class="d-block w-100" alt="Eyecream 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/eye2.JPG" class="d-block w-100" alt="Eyecream 2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/eye3.JPG" class="d-block w-100" alt="Eyecream 3">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselEyecream" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselEyecream" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>Eyecream</h3>
-                            <p class="price">Improve sagging and darkcircles around eye.</p>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Eyelash Extensions</h3>
+                            <p>Full sets and refills for stunning, voluminous lashes.</p>
+                            <ul class="service-list">
+                                <li>✓ Classic Set - $65</li>
+                                <li>✓ Hybrid Set - $75</li>
+                                <li>✓ Volume Set - $85</li>
+                                <li>✓ Mega Volume - $100</li>
+                                <li>✓ Refills from $40</li>
+                            </ul>
+                            <a href="#pricing" class="btn btn-view-service">View All Lashes</a>
                         </div>
                     </div>
                 </div>
                 
+                <!-- Henna & More Card -->
                 <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselMassager" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/mas.WEBP" class="d-block w-100" alt="Massager 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/mas1.WEBP" class="d-block w-100" alt="Massager 2">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMassager" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselMassager" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>Hair Massager</h3>
-                            <p class="price">Scalp massager and shampoo Brush.</p>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Henna & Additional</h3>
+                            <p>Beautiful henna designs and special treatments.</p>
+                            <ul class="service-list">
+                                <li>✓ Henna Design - from $10</li>
+                                <li>✓ Head Massage - $10</li>
+                                <li>✓ Eyelash Removal - $25</li>
+                            </ul>
+                            <a href="#pricing" class="btn btn-view-service">View All</a>
                         </div>
                     </div>
                 </div>
-
-                
-                <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselBotox" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/sam.JPG" class="d-block w-100" alt="Botox 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/sam1.PNG" class="d-block w-100" alt="Botox 2">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBotox" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselBotox" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>Botox Shampoo</h3>
-                            <p class="price">Do not contain sulfates, parabens, formaldehyde, or harsh chemicals.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselKeratin" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/sampo.JPG" class="d-block w-100" alt="Keratin 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/sampo1.PNG" class="d-block w-100" alt="Keratin 2">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselKeratin" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselKeratin" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>Brazilian Shampoo</h3>
-                            <p class="price">Do not contain sulfates, parabens, formaldehyde, or harsh chemicals.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <div id="carouselBrazilian" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="image/samp.JPG" class="d-block w-100" alt="Brazilian 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="image/samp1.PNG" class="d-block w-100" alt="Brazilian 2">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBrazilian" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselBrazilian" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                            </div> <!-- End carousel -->
-                
-                            <div class="product-overlay">
-                                <a href="https://www.instagram.com/nano_makeups.np" class="btn btn-view">View Details</a>
-                            </div>
-                        </div> <!-- End product-img -->
-                
-                        <div class="product-info">
-                            <h3>Keratin Shampoo</h3>
-                            <p class="price">Do not contain sulfates, parabens, formaldehyde, or harsh chemicals.</p>
-                        </div>
-                    </div>
-                </div>
-
-                
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Pricing Section - NEW: Complete pricing table from your image -->
+    <section id="pricing" class="pricing py-5 bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Pricing</h2>
+                <p>Premium services at affordable prices</p>
+            </div>
+            
+            <div class="row">
+                <!-- Threading & Facials Table -->
+                <div class="col-lg-6 mb-4">
+                    <div class="pricing-card">
+                        <h3 class="pricing-title">Threading & Facials</h3>
+                        <table class="pricing-table">
+                            <tr><td>Eyebrows</td><td>$10</td></tr>
+                            <tr><td>Upper Lip</td><td>$7</td></tr>
+                            <tr><td>Sidebrow</td><td>$10</td></tr>
+                            <tr><td>Forehead</td><td>$7</td></tr>
+                            <tr><td>Neck</td><td>$10</td></tr>
+                            <tr><td>Full Face</td><td>$30</td></tr>
+                            <tr><td>Eyebrow and Lip</td><td>$15</td></tr>
+                            <tr><td>Head Massage</td><td>$10</td></tr>
+                            <tr class="table-divider"><td colspan="2">FACIALS</td></tr>
+                            <tr><td>Express Cleansing</td><td>$25</td></tr>
+                            <tr><td>Classic Facial</td><td>$45</td></tr>
+                            <tr><td>Deep Cleansing Facial</td><td>$65</td></tr>
+                            <tr><td>Brightening Facial</td><td>$75</td></tr>
+                            <tr><td>Anti Aging Facial</td><td>$75</td></tr>
+                            <tr><td>Delux Facial</td><td>$100</td></tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Tinting & Lashes Table -->
+                <div class="col-lg-6 mb-4">
+                    <div class="pricing-card">
+                        <h3 class="pricing-title">Tinting & Lashes</h3>
+                        <table class="pricing-table">
+                            <tr><td>Eyebrows Tint</td><td>$10</td></tr>
+                            <tr><td>Eyelash Tint</td><td>$12</td></tr>
+                            <tr><td>Eyebrow and Eyelash Tint</td><td>$20</td></tr>
+                            <tr><td>Eyelash Lift</td><td>$45</td></tr>
+                            <tr><td>Eyebrow Lamination</td><td>$70</td></tr>
+                            <tr><td>Eyelash Lift and Lamination</td><td>$70</td></tr>
+                            <tr class="table-divider"><td colspan="2">EYELASH EXTENSION</td></tr>
+                            <tr><td>Classic Set</td><td>$65</td></tr>
+                            <tr><td>Hybrid Full Set</td><td>$75</td></tr>
+                            <tr><td>Volume</td><td>$85</td></tr>
+                            <tr><td>Mega Volume</td><td>$100</td></tr>
+                            <tr><td>Refills Starts from</td><td>$40</td></tr>
+                            <tr><td>Removal</td><td>$25</td></tr>
+                            <tr><td>Henna Design start from</td><td>$10</td></tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Waxing Table -->
+                <div class="col-lg-12">
+                    <div class="pricing-card">
+                        <h3 class="pricing-title">Waxing Services</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <table class="pricing-table">
+                                    <tr><td>Under Arms</td><td>$15</td></tr>
+                                    <tr><td>Half Arms</td><td>$20</td></tr>
+                                    <tr><td>Half Legs</td><td>$25</td></tr>
+                                    <tr><td>Full Legs</td><td>$40</td></tr>
+                                    <tr><td>Backside</td><td>$30</td></tr>
+                                </table>
+                            </div>
+                            <div class="col-md-6">
+                                <table class="pricing-table">
+                                    <tr><td>Stomach</td><td>$20</td></tr>
+                                    <tr><td>Full Body</td><td>$99</td></tr>
+                                    <tr><td>Bikini Line</td><td>$20</td></tr>
+                                    <tr><td>Brazilian</td><td>$45</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p class="pricing-note">* Prices are in AUD. Book your appointment today!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section - CHANGED: Updated for Arch & Tone -->
     <section id="about" class="about py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="image/image1.png" alt="About NanoMakeups" class="img-fluid rounded">
+                        <img src="image/image1.png" alt="About Arch & Tone" class="img-fluid rounded"> <!-- CHANGE THIS: Replace with your parlour image -->
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-content">
-                        <h2>About NanoMakeups Nepal</h2>
-                        <p>Founded in 2020, NanoMakeups Nepal is a premium cosmetics brand dedicated to bringing high-quality, products to the Nepalese market at an affordable rate.</p>
-                        <p>Products we sell are of the highest quality at prices never seen before.</p>
-                        <ul class="about-features">
-                            <li><i class="fas fa-check"></i> High Quality Products</li>
-                            <li><i class="fas fa-check"></i> Affordable Price</li>
-                            <li><i class="fas fa-check"></i> Delivered to your convenience</li>
-                            <li><i class="fas fa-check"></i> Exciting gifts and discounts</li>
+                        <h2>About Arch & Tone</h2> <!-- CHANGED: Title -->
+                        <p>Welcome to <strong>Arch & Tone</strong>, your premier beauty destination in Australia. We specialize in precision threading, waxing, tinting, facials, and full-body grooming services designed to enhance your natural beauty.</p> <!-- CHANGED: Description -->
+                        <p>Our expert team is dedicated to providing high-quality services in a clean, comfortable, and welcoming environment. We believe everyone deserves to look and feel their best without compromising on quality or comfort.</p> <!-- CHANGED -->
+                        <ul class="about-features"> <!-- CHANGED: Features list -->
+                            <li><i class="fas fa-check"></i> Expert professionals with years of experience</li>
+                            <li><i class="fas fa-check"></i> Premium products & hygienic practices</li>
+                            <li><i class="fas fa-check"></i> Affordable pricing with no hidden costs</li>
+                            <li><i class="fas fa-check"></i> Conveniently located in Australia</li>
                         </ul>
+                        <div class="about-contact mt-3">
+                            <p><i class="fas fa-map-marker-alt"></i> Australia</p>
+                            <p><i class="fas fa-phone"></i> 610450051237</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section - CHANGED: Updated with your contact info -->
     <section id="contact" class="contact py-5">
         <div class="container">
             <div class="section-header">
-                <h2>Contact Us</h2>
-                <p>We'd love to hear from you</p>
+                <h2>Book Your Appointment</h2> <!-- CHANGED: More action-oriented -->
+                <p>We'd love to help you glow</p>
             </div>
             <div class="row">
                 <div class="col-lg-6">
@@ -414,12 +322,24 @@
                             <input type="email" class="form-control" placeholder="Your Email">
                         </div>
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Subject">
+                            <input type="text" class="form-control" placeholder="Phone Number"> <!-- CHANGED: Phone field added -->
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                            <select class="form-control"> <!-- NEW: Service selection -->
+                                <option>Select Service</option>
+                                <option>Threading</option>
+                                <option>Waxing</option>
+                                <option>Tinting</option>
+                                <option>Facials</option>
+                                <option>Eyelash Extensions</option>
+                                <option>Henna</option>
+                                <option>Full Body Grooming</option>
+                            </select>
                         </div>
-                        <button type="submit" class="btn btn-send">Send Message</button>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Preferred Date & Time or Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-send">Send Booking Request</button>
                     </form>
                 </div>
                 <div class="col-lg-6">
@@ -427,20 +347,28 @@
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <h4>Location</h4>
-                            <p>Kathmandu, Nepal</p>
+                            <p>Australia</p> <!-- CHANGED: Location -->
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
                             <h4>Email</h4>
-                            <p>makeupsnano@gmail.com</p>
+                            <p>archtone@gmail.com</p> <!-- CHANGED: Email -->
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
-                            <h4>Phone</h4>
-                            <p>+977 9866400496</p>
+                            <h4>Phone / WhatsApp</h4>
+                            <p>610450051237</p> <!-- CHANGED: Phone with country code -->
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <h4>Working Hours</h4> <!-- NEW: Hours -->
+                            <p>Mon-Sat: 10:00 AM - 7:00 PM</p>
+                            <p>Sun: By Appointment</p>
                         </div>
                         <div class="social-links">
-                            <a href="https://www.instagram.com/nano_makeups.np"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/archntone/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61587825106338"><i class="fab fa-facebook"></i></a> <!-- NEW: Facebook -->
+                            <a href="tel:610450051237"><i class="fab fa-whatsapp"></i></a> <!-- NEW: WhatsApp -->
                         </div>
                     </div>
                 </div>
@@ -448,37 +376,54 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- CTA Banner - NEW: Quick booking section -->
+    <section class="cta-banner py-4">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h3 class="mb-0">Your Glow Awaits ✨</h3>
+                    <p class="mb-0">Reserve your experience today</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="tel:610450051237" class="btn btn-light btn-lg"><i class="fas fa-phone-alt"></i> 610450051237</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - CHANGED: Updated for Arch & Tone -->
     <footer class="footer py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-brand">
-                        <h3>NanoMakeups Nepal</h3>
-                        <p>Beauty Redefined</p>
+                        <h3>Arch & Tone</h3> <!-- CHANGED -->
+                        <p>Where every arch is an art, and every tone is your glow</p> <!-- CHANGED -->
                     </div>
                 </div>
                 <div class="col-md-4">
                     <h4>Quick Links</h4>
                     <ul class="footer-links">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li> <!-- CHANGED -->
+                        <li><a href="#pricing">Pricing</a></li> <!-- NEW -->
                         <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h4>Newsletter</h4>
-                    <form class="newsletter-form">
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Your Email">
-                            <button class="btn btn-subscribe" type="submit">Subscribe</button>
-                        </div>
-                    </form>
+                    <h4>Contact Us</h4> <!-- CHANGED: Removed newsletter, added contact -->
+                    <p><i class="fas fa-phone"></i> 610450051237</p>
+                    <p><i class="fas fa-envelope"></i> archtone@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Australia</p>
+                    <div class="social-links mt-2">
+                        <a href="https://www.instagram.com/archntone/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61587825106338"><i class="fab fa-facebook"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 NanoMakeups Nepal. All Rights Reserved.</p>
+                <p>&copy; 2026 Arch & Tone. All Rights Reserved. | Beauty Parlour Australia</p> <!-- CHANGED -->
             </div>
         </div>
     </footer>
@@ -488,8 +433,7 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom JS -->
     <script src="script.js"></script>
